@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>1.1.1.	Defination of Data Communication :
+·	Data communication refers to the exchange of data between a source and a receiver via form of transmission media 
+such as a wire cable. 
+Data communication is said to be local if communicating devices are in the same building or a similarly restricted geographical area.
+ 1.1.2.characteristics of data communications
+1. Delivery: The data must be deliver in correct order with correct destination.
+2.Accuracy: The data must be deliver accurately.
+3. Timeliness: The data must be deliver in a timely manner.late delivered Data useless.
+4. Jitter: It is the uneven delay in the packet arrival time that cause uneven quality.
+
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>1.1.2.	Components of Data Communication
+A Communication system has following components:
+1. Message: It is the information or data to be communicated. It can consist of text, numbers, pictures, sound or video or any combination of these.
+2. Sender: It is the device/computer &lt;http://ecomputernotes.com/fundamental/introduction-to-computer/what-is-computer&gt; that generates and sends that message.
+3. Receiver: It is the device or computer that receives the message. The location of receiver computer is generally different from the sender computer. 
+The distance between sender and receiver depends upon the types of network used in between.
+4. Medium: It is the channel or physical path through which the message is carried from sender to the receiver.
+ The medium can be wired like twisted pair wire, coaxial cable, fiber-optic cable or wireless like laser, radio waves, and microwaves.
+5. Protocol: It is a set of rules that govern the communication between the devices. Both sender and receiver follow same protocols to communicate with each other.
+</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>A protocol performs the following functions:
+1. Data sequencing. It refers  to breaking a long message into smaller packets of fixed size. 
+Data sequencing rules define the method of numbering packets to detect loss or duplication of packets,
+ and to correctly identify packets, which belong to same message.
+2. Data routing. Data routing defines the most efficient path between the source and destination.
+3. Data formatting. Data formatting rules define which group of bits or characters within packe
+t constitute data, control, addressing, or other information.
+4. Flow control. A communication protocol also prevents a fast sender from overwhelming a slow receiver. It ensures resource sharing and 
+protection against traffic congestion by regulating the flow of data on communication lines.
+5. Error control. These rules are designed to detect errors in messages and to ensure transmission of correct messages. 
+The most common method is to retransmit erroneous message block. In such a case, a block 
+having error is discarded by the receiver and is retransmitted by the sender.
+6. Precedence and order of transmission. These rules ensure that all the nodes get a chance to use the communication
+ lines and other resources of the network based on the priorities assigned to them.
+7. Connection establishment and termination. These rules define how connections are established, maintained
+ and terminated when two nodes of a network want to communicate with each other.
+8. Data security. Providing data security and privacy is also built into most communication software packages.
+ It prevents access of data by unauthorized users.
+
+Bandwidth
+
+Bandwidth is measured as the amount of data that can be transferred from one point to another within a network in a specific amount of time. 
+Typically, bandwidth is expressed as a bit rate and measured in bits per second (bps).
+Bandwidth is arrange of frequencies available for data transmission. It refers to data transmission rate.
+Data rate depends on following three factors:
+1. The Bandwidth available,
+2. The level of the signals we use, and
+3. The quality of the channel (the level of noise)
+
+Terms related to Bandwidth:
+1.	Amplitude: The maximum value of an AC quantity is called as amplitude. It is measured in volts, 
+amperes or watt depending on the type of signal.
+2.	Frequency: It is defined as the number of cycles completed by an AC quantity in one second. Its unit is Hz (Hertz). 
+3.	Phase: Phase describe the position of the waveform with respect to time zero.
+4.	Time period: It is defined as the time taken in seconds by the waveforms of an AC quantity to complete one cycle.
+
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>The term Comunication Mode defines the direction of the flow of information between two communication devices i.e. it tells the direction of signal flow between the two devices.
+There are three ways or modes of data Communication: Simplex, Half duplex (HDX), Full duplex (FDX)
+ 1. Simplex: In Communication Networks, Communication can take place in one direction (Data flows in single direction.) 
+connected to such a circuit are either a send only or receive only device. There is no mechanism for information to be transmitted back to the sender. 
+Communication is unidirectional. TV broadcasting is an example. Simplex transmission generally involves dedicated circuits. Simplex circuits are analogous 
+to escalators, doorbells, fire alarms and security systems.
+2. Half Duplex: A half duplex system can transmit data in both directions, but only in one direction at a time that mean half duplex modes support
+ two-way traffic but in only one direction at a time. The interactive transmission of data within a time sharing system may be best suited to half-
+duplex lines. Both the connected devices can transmit and receive but not simultaneously. When one device is sending the other can only receive and 
+vice-versa. Data is transmitted in one direction at.a time, for example. a walkie-talkie. 
+3. Full Duplex: A full duplex system can transmit data simultaneously in both directions on transmission path. Full-duplex method is used to transmit 
+the data over a serial communication link. Two wires needed to send data over a serial communication link layer. Full-duplex transmission, the channel 
+capacity is shared by both communicating devices at all times.
+</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Digital to analog conversion
+Digital-to-analog conversion is the process of changing one of the characteristics of an analog signal based on the information in digital data.
+ 
+A sine wave is defined by three characteristics: amplitude, frequency, and phase. When we change anyone of these characteristics, we create a
+ different version of that wave. So, by changing one characteristic of a simple electric signal, we can use it to represent digital data.
+1. Amplitude Shift Keying:
+
+In amplitude shift keying, the amplitude of the carrier signal is varied to create signal elements. Both frequency and phase remain constant while the amplitude changes.
+
+Binary ASK (BASK)
+
+ASK is normally implemented using only two levels. This is referred to as binary amplitude shift keying or on-off keying (OOK). 
+The peak amplitude of one signal level is 0; the other is the same as the amplitude of the carrier frequency. The following figure gives a conceptual view of binary ASKS.
+2. Frequency Shift Keying
+
+In frequency shift keying, the frequency of the carrier signal is varied to represent data. The frequency of the modulated signal is constant for the d
+uration of one signal element, but changes for the next signal element if the data element changes. Both peak amplitude and phase remain constant for all signal elements.
+Binary FSK (BFSK)
+One way to think about binary FSK (or BFSK) is to consider two carrier frequencies. In the following Figure, we have selected two carrier frequencies f1 and f2. 
+We use the first carrier if the data element is 0; we use the second if the data element is 1.
+ 
+3. Phase Shift Keying:
+ 
+In phase shift keying, the phase of the carrier is varied to represent two or more different signal elements. Both peak amplitude and frequency remain constant as the phase changes.
+
+Binary PSK (BPSK):
+
+The simplest PSK is binary PSK, in which we have only two signal elements, one with a phase of 0°, and the other with a phase of 180°. 
+The following figure gives a conceptual view of PSK. Binary PSK is as simple as binary ASK with one big advantage-it is less susceptible to noise. In ASK, the criterion for bit detection is the amplitude of the signal. But in PSK, it is the phase. 
+Noise can change the amplitude easier than it can change the phase. In other words, PSK is less susceptible to noise than ASK. PSK is superior to FSK because we do not need two carrier signals.
+</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Analog-to-Analog Conversion
+Analog signals are modified to represent analog data. This conversion is also known as Analog Modulation. Analog modulation is required when bandpass is used. Analog to analog conversion can be done in three ways:
+·	Amplitude Modulation
+In this modulation, the amplitude of the carrier signal is modified to reflect the analog data.
+Amplitude modulation is implemented by means of a multiplier. The amplitude of modulating signal (analog data) is multiplied by the amplitude of carrier frequency, which then reflects analog data.
+The frequency and phase of carrier signal remain unchanged.
+·	Frequency Modulation
+In this modulation technique, the frequency of the carrier signal is modified to reflect the change in the voltage levels of the modulating signal (analog data).
+The amplitude and phase of the carrier signal are not altered.
+·	Phase Modulation
+In the modulation technique, the phase of carrier signal is modulated in order to reflect the change in voltage (amplitude) of analog data signal.
+Phase modulation is practically similar to Frequency Modulation, but in Phase modulation frequency of the carrier signal is not increased. 
+Frequency of carrier is signal is changed (made dense and sparse) to reflect voltage change in the amplitude of modulating signal.
+</value>
+  </data>
+</root>
